@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// import styles from './Button.module.scss';
+import './Button.css';
 
 export const Button = () => {
   const [state, setState] = useState(0);
