@@ -1,9 +1,11 @@
 import { useState } from 'react';
 
+import useCount from './store';
+
 import './Button.css';
 
 export const Button = () => {
-  const [state, setState] = useState(0);
+  const [state, setState] = useCount();
 
   return (
     <div>
